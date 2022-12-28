@@ -1,0 +1,57 @@
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 7, 175, 0.5);
+}
+
+.login i {
+    font-size: 25px;
+    font-family: sans-serif;
+    background: white;
+    color: black;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.login i:hover {
+    background-color: black;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+.container form {
+    color: white;
+    padding: 20px 40px;
+}
+
+.container form label {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+
+.container form input {
+    font-size: 20px;
+    border: transparent;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+button {
+    font-size: 20px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #0687f8;
+    transition: all ease 0.5s;
+}
